@@ -58,9 +58,10 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.row__buttons
-  display flex
-  flex-flow row nowrap
+.row__buttons {
+  display: flex;
+  flex-flow: row nowrap;
+}
 
 .row__button {
   margin-left: 10px;

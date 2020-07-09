@@ -8,8 +8,7 @@
         <th>Phone</th>
         <th>Email</th>
       </tr>
-      <v-row v-for="user in users" :key="user" :data="user" :rowId="user[0].value">
-      </v-row>
+      <v-row v-for="user in users" :key="user" :data="user" :rowId="user[0].value"></v-row>
     </tbody>
   </table>
 </template>
